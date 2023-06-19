@@ -12,7 +12,9 @@ function App() {
     <BrowserRouter>
       {/* Navbar componenet */}
       <div className="bg-black text-white">
-        <Navbar />
+        <header>
+          <Navbar />
+        </header>
         <Routes>
           <Route path="/" exact element={<Feed />} />
           <Route path="/video/:id" element={<VideoDetail />} />
