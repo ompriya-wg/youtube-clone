@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# YOUTUBE - CLONE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="justify">Our YouTube clone website is a fully functional platform that allows users to upload, watch, and share videos. It is built using the React JavaScript library, which enables us to create a dynamic and interactive user interface.</p>
 
-## Available Scripts
+# Images:
+<div align="center">
+<img src="./src/images/home-desktop.png">
+<img src="./src/images/channel-desktop.png">
+<img src="./src/images/video-desktop.png">
+</div>
 
-In the project directory, you can run:
+# Responsive Design:
+<div align="center">
+<img src="./src/images/home-mobile.png">
+<img src="./src/images/channel-mobile.png">
+<img src="./src/images/video-mobile.png">
+</div>
 
-### `npm start`
+# TECH STACK USED:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Framework: [REACT](https://react.dev/)
+- CSS Framework: [Tailwind CSS](https://tailwindcss.com/)
+- RAPID API: [RAPID API](https://rapidapi.com/hub)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## REACT
 
-### `npm test`
+React is a popular JavaScript library for building user interfaces. It was developed by Facebook and is widely used in web development. React allows developers to create reusable UI components that can be combined to build complex and interactive web applications.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+One of the key features of React is its virtual DOM (Document Object Model) representation. React maintains a lightweight in-memory representation of the actual HTML DOM, which allows it to efficiently update and render only the necessary components when there are changes in the application's state. This approach results in faster rendering and improved performance compared to traditional methods.
 
-### `npm run build`
+React follows a component-based architecture, where the user interface is broken down into small, reusable components. Each component encapsulates its own logic and rendering, making it easier to manage and maintain the application. Components can be composed together to create more complex UI structures, and they can also have their own internal state and lifecycle methods.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tailwind CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Tailwind CSS is a highly customizable CSS framework that provides a utility-first approach to styling. It allows you to rapidly build modern, responsive interfaces by composing small utility classes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+With Tailwind CSS, you can easily create and maintain consistent designs across your application. It provides a wide range of pre-built utility classes for styling elements, responsive layouts, and more.
 
-### `npm run eject`
+Learn more about Tailwind CSS [here](https://tailwindcss.com/).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Deployed on Vercel:
+<div align="left">
+<p>The Website had been deployed on vercel platform</p><a href="https://youtube-clone-seven-phi.vercel.app/">Live Demo</a>
+</div>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Installation
 
-## Learn More
+To install the code from this GitHub repository, follow the steps below:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository using Git:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   ```
+    Replace your-username with your GitHub username and your-repository with the name of the repository you want to clone.
 
-### Code Splitting
+2. Navigate to the project directory:
+   ```bash
+   cd your-repository
+   ```
+   Change directory to the cloned repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Install any required dependencies:
+   ```bash
+   # Using npm
+    npm install
 
-### Analyzing the Bundle Size
+    # Using yarn
+    yarn install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```
+   This command will install any necessary dependencies for the project. Make sure you have Node.js and the package manager (npm or yarn) installed on your system.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Start using the code:
+   You can now start using the code from the repository according to the project's documentation or instructions. Refer to any provided README or documentation files for more information. 
