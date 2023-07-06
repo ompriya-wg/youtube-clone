@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { demoVideoUrl, demoChannelUrl } from "../utils/constants";
 const VideoCard = ({ video }) => {
   return (
-    <div className="flex flex-col max-h-[380px] max-w-[380px]">
+    <div className="flex flex-col max-h-[380px] max-w-[380px] overflow-hidden">
       <Link to={video?.videoId ? `/video/${video.videoId}` : demoVideoUrl}>
         <img
           src={video?.snippet?.thumbnails?.high?.url}
@@ -11,7 +11,7 @@ const VideoCard = ({ video }) => {
           height={180}
         />
       </Link>
-      <p className="font-semibold flex flex-wrap">{video?.snippet?.title}</p>
+      <p className="font-semibold flex flex-wrap ">{video?.snippet?.title}</p>
       <Link
         to={
           video?.snippet?.channelId

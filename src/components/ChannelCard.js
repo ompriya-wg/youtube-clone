@@ -13,11 +13,14 @@ const ChannelCard = ({ channelDetail }) => {
         <img
           src={channelDetail?.snippet?.thumbnails?.high?.url}
           alt={channelDetail?.snippet?.title}
-          width={250}
+          width={150}
           className="rounded-full"
         />
       </Link>
       <p className="mt-4">{channelDetail?.snippet?.title}✔️</p>
+      <p className="mt-4">
+        Subscribers : {channelDetail?.statistics?.subscriberCount}
+      </p>
     </div>
   );
 };
