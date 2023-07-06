@@ -27,7 +27,7 @@ const ChannelDetail = () => {
           <ChannelCard channelDetail={channelinfo} />
         </section>
       </div>
-      <div className="flex flex-wrap justify-evenly">
+      <div className="flex flex-wrap justify-center gap-8">
         {videos.map((item, idx) => {
           return (
             <div key={idx}>{item.id.videoId && <VideoCard video={item} />}</div>

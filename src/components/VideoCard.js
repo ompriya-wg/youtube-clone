@@ -3,7 +3,9 @@ import { demoVideoUrl, demoChannelUrl } from "../utils/constants";
 const VideoCard = ({ video }) => {
   return (
     <div className="flex flex-col max-h-[380px] max-w-[380px] overflow-hidden">
-      <Link to={video?.videoId ? `/video/${video.videoId}` : demoVideoUrl}>
+      <Link
+        to={video?.id?.videoId ? `/video/${video.id.videoId}` : demoVideoUrl}
+      >
         <img
           src={video?.snippet?.thumbnails?.high?.url}
           alt={video?.snippet?.title}
